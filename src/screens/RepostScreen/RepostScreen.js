@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, Image, TouchableOpacity} from 'react-native';
+import {View, Text, Image, TouchableOpacity, Alert} from 'react-native';
 import {HeaderBar} from '../../components';
 import logErrors from '../../utils/logErrors';
 import {images} from '../../config';
@@ -25,7 +25,9 @@ class RepostScreen extends Component {
       <View style={styles.container}>
         <HeaderBar home repost url={string} />
         <Image style={styles.image} source={{uri: image}} />
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          onPress={() => Alert.alert('Repost feito com sucesso!')}
+          style={styles.button}>
           <Image style={styles.icon} source={images.icon2} />
           <Text style={styles.text}>Repostar</Text>
         </TouchableOpacity>

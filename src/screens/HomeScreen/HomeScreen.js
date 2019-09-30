@@ -86,7 +86,7 @@ class HomeScreen extends Component {
       <Text style={styles.emptyTitle}>Como Usar</Text>
       <Text style={styles.textEmpty}>1. Entre no Instagram</Text>
       <Text style={styles.textEmpty}>
-        2. Clique nos 3 pontinhos da publicação
+        2. Clique nos 3 pontinhos de uma publicação não privada
       </Text>
       <Text style={styles.textEmpty}>4. Copiar Link</Text>
       <Text style={styles.textEmpty}>5. Cole no botão abaixo</Text>
