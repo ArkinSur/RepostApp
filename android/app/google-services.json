@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "870666500288",
+    "firebase_url": "https://repostapp-b2fd7.firebaseio.com",
+    "project_id": "repostapp-b2fd7",
+    "storage_bucket": "repostapp-b2fd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870666500288:android:b46c6a324056caf3a15525",
+        "android_client_info": {
+          "package_name": "com.repostapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870666500288-9gnsu414ia4bnu24k9c828pd55us5dj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.repostapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "870666500288-jd7bckrk9u63bku1cocl4fkqmi8oavir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.repostapp",
+            "certificate_hash": "53e2208c73a5e417078c457bb2ff90a4b6079e3c"
+          }
+        },
+        {
+          "client_id": "870666500288-49q5v6h6pgul4qjjhc0vtiok53ha7p47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxnADbhlKlH8BLRNSk_8NfUwRn2bKfchY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870666500288-49q5v6h6pgul4qjjhc0vtiok53ha7p47.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "870666500288-f1vsqfuj1lmicvnmgjn2dc81oo7n2obt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.filipe.RepostApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
