@@ -65,13 +65,6 @@ class HomeScreen extends Component {
     this.setState({data: []});
   };
 
-  _signOUt = () => {
-    const {navigation} = this.props;
-    firebaseLogout();
-    AsyncStorage.removeItem('@user');
-    navigation.navigate('Auth');
-  };
-
   _renderItem = ({item}) => (
     <ListItem
       image={item.image}
@@ -98,7 +91,7 @@ class HomeScreen extends Component {
       <TouchableOpacity style={styles.paste} onPress={this.readFromClipboard}>
         <Text style={styles.pasteButton}>Colar</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.exitButton} onPress={this._signOUt}>
+      <TouchableOpacity style={styles.exitButton} onPress={this._signOut}>
         <Text style={styles.exitText}>Sair</Text>
       </TouchableOpacity>
     </>
@@ -106,8 +99,8 @@ class HomeScreen extends Component {
 
   _signOut = async () => {
     const {navigation} = this.props;
-    firebaseLogout();
     await AsyncStorage.removeItem('@user');
+    firebaseLogout();
     navigation.navigate('Auth');
   };
 
